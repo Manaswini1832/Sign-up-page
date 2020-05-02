@@ -1,0 +1,76 @@
+body {
+  background-color: #e0e5ec;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+}
+
+h5 {
+  color: grey;
+}
+
+.action-div {
+  align-items: center;
+  background-color: #e0e5ec;
+  box-shadow:
+    9px 9px 16px 0 #a3b1c6,
+    -9px -9px 16px 0 white;
+  border-radius: 50px;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  /* margin-right: 4rem; */
+  width: 500px;
+}
+
+.action-h1 {
+  font-weight: 600;
+}
+
+.action-head {
+  padding: 5px;
+}
+
+#name, #email {
+  box-shadow:
+    9px 9px 16px 0 #a3b1c6,
+    -9px -7px 16px 0 white;
+  background-color: #e0e5ec;
+  border: 0;
+}
+
+.name-entry::placeholder, .email-entry::placeholder, .submit-button {
+  font-family: 'Patrick Hand', cursive;
+  font-size: bolder;
+}
+
+.form-div {
+  width: 300px;
+  margin: auto;
+}
+
+.submit-button {
+  box-shadow:
+    9px 9px 16px 0 #a3b1c6,
+    -9px -9px 16px 0 white;
+  background-color: #e0e5ec;
+  margin: 20px;
+}
+
+.submit-button-prev, .submit-button-next {
+  border-radius: 50%;
+  box-shadow:
+    9px 9px 16px 0 #a3b1c6,
+    -9px -9px 16px 0 white;
+  background-color: #e0e5ec;
+  color: #b29700;
+  margin: 10px;
+}
+
+img {
+  width: 30%;
+  border-radius: 100%;
+}
